@@ -14,7 +14,7 @@ salattu = list("-" * len(oikea_sana))
 
 while yritykset > 0:
     print("".join(salattu))  # Näytetään tämänhetkinen
-    arvaus = input("Arvaa sana 5 kirjainta pitkä sana: ")
+    arvaus = input("Arvaa 5 kirjainta pitkä sana: ")
 
     if len(arvaus) != len(oikea_sana):
         print(f"Syötä {len(oikea_sana)} kirjainta pitkä sana.")
