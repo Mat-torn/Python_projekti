@@ -42,4 +42,4 @@ Tekijä: Matilda Törnqvist. Koodin pohjaan on käytetty apuna Youtube tutoriaal
 
 ## Lisenssi  
 
-MIT-lisenssi © [Matilda Törnqvist](LISENCE.txt)
+MIT-lisenssi © [Matilda Törnqvist](LICENSE.txt)
