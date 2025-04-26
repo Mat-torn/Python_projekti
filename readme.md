@@ -20,8 +20,7 @@ Päätin tehdä projektin yksin, sillä minulla oli idea minkä koin parhaaksi t
 ## Tietoa sovelluksesta  
 Sanametsä on tekstipohjainen peli, jolla on samanlainen idea sisällöllisesti, kuin tunnetulla Wordle-pelillä. Pelaajalla on kuusi yrityskertaa arvata viiden kirjaimen mittainen sana. Peli kertoo pelaajalle, jos arvatusta sanasta löytyy oikeita kirjaimia oikeasta paikasta tai jos kirjaimet kuuluvat sanaan mutta eivät ole oikeassa paikassa.
 
-## Kuvakaappaukset   
-`![Drive kansio](https://laureauas-my.sharepoint.com/my?id=%2Fpersonal%2Fmat00158%5Flaurea%5Ffi%2FDocuments%2FPython%20projektin%20kuvankaappaukset&login_hint=mat00158%40laurea%2Efi&source=waffle)`
+## Kuvakaappaukset
 
 Kuva: [Matilda Törnqvist](https://laureauas-my.sharepoint.com/my?id=%2Fpersonal%2Fmat00158%5Flaurea%5Ffi%2FDocuments%2FPython%20projektin%20kuvankaappaukset&login_hint=mat00158%40laurea%2Efi&source=waffle)
 
@@ -30,7 +29,7 @@ Käytin seuraavia teknologioita: Python, Visual Studio Code ja linkitin projekti
 
 ## Suunnittelu
 Aloitin tämän projektin jo muutama vuosi sitten, joten sen jatkaminen tuntui alkuun hieman haastavalta. Olen tällä kurssilla saanut palautettua mieleen paljon projektissa käytettyjä metodeja, joten oli helpompaa pikkuhiljaa lähteä korjaamaan koodia. Ennen kuin jatkoin projektin kehittämistä tein vuokaavion, jolla sain määriteltyä muutettavia asioita ja päivitettyä projektin rakennetta.
-`![Vuokaavio](https://laureauas-my.sharepoint.com/my?id=%2Fpersonal%2Fmat00158%5Flaurea%5Ffi%2FDocuments%2FPython%20projektin%20kuvankaappaukset&login_hint=mat00158%40laurea%2Efi&source=waffle)`
+[Vuokaavio](https://laureauas-my.sharepoint.com/my?id=%2Fpersonal%2Fmat00158%5Flaurea%5Ffi%2FDocuments%2FPython%20projektin%20kuvankaappaukset&login_hint=mat00158%40laurea%2Efi&source=waffle)
 
 ## Tila  
 Sanametsä on toistaiseksi sellainen, millainen sen haluan olla. Se on yksinkertainen ja täten helppokäyttöinen esim. VS Codella. Jos haluaisin julkaista sen tulevaisuudessa, syventyisin käyttöliittymään paremmin. Sovelluksen tila kuvaa juuri tämän hetkistä osaamistani hyvin.
