@@ -2,7 +2,7 @@
 Projektin nimi on Sanametsä. Projektin on luonut ja toteuttanut Matilda Törnqvist
 
 ## Demo-linkki:  
-Pääset sivustolleni osoitteessa [Github.com](https://github.com/Mat-torn/Python_projekti)
+Pääset sivustolleni osoitteessa [Github.com](https://github.com/Mat-torn)
 Videoesittely projektista: [Youtube](https://youtu.be/nkJagw93Jw0)
 
 ## Työmäärän jakautuminen  
