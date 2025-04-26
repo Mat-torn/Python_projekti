@@ -6,24 +6,28 @@ with open("wordle.txt") as SanaLista:
     sanat = [sana.rstrip() for sana in rivit]
 
 #määritellään arvattavan sanan yrityskerrat
+oikea_sana = random.choice(sanat)
 yritykset = 6
-sana = random.choice(sanat)
-print(sana)
+
+# Luodaan aluksi piilotettu sana (eli kaikki viivat)
+salattu = list("-" * len(oikea_sana))
 
 while yritykset > 0:
-    salattu = list("-----")
+    print("".join(salattu))  # Näytetään vihje käyttäjälle
     arvaus = input("Arvaa sana: ")
 
-    for maara, kirjain in enumerate(arvaus):
-        if sana[maara] == kirjain:
-            salattu[maara] = kirjain.upper()
-        elif kirjain in sana:
-            salattu[maara] = kirjain.lower()
-
-    print("".join(salattu))
-
-    if "".join(salattu).lower() == sana:
-        print("Voitit pelin! ")
+    if arvaus.lower() == oikea_sana:
+        print("Voitit pelin! Oikea sana oli:", oikea_sana)
         break
-    else:
-        yritykset -= 1
+
+    for i in range(min(len(arvaus), len(oikea_sana))):
+        if arvaus[i] == oikea_sana[i]:
+            salattu[i] = oikea_sana[i].upper()
+        elif arvaus[i] in oikea_sana:
+            if salattu[i] == "-":  # Ei korvata oikein arvattua kirjainta
+                salattu[i] = arvaus[i].lower()
+
+    yritykset -= 1
+
+    if yritykset == 0:
+        print("Hävisit pelin! Oikea sana oli:", oikea_sana)
